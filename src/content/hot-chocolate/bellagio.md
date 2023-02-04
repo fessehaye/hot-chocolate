@@ -5,6 +5,7 @@ desc: whisky
 location: Bellaggio Cafe
 link: https://hotchocolatefest.com/bellaggio-cafe
 order: 6
+review: This was a good drink but the whiskey was so strong in this drink haha
 ---
 
 "

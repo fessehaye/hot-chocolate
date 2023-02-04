@@ -5,6 +5,7 @@ desc: floral
 location: 49th Parallel Coffee + Lucky's Doughnuts
 link: https://hotchocolatefest.com/49-parallel
 order: 4
+review: This just tasted/smelled like a regular hot chocolate to me. I liked the donut but I do not think it matched with the drink
 ---
 
 "

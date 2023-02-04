@@ -5,6 +5,7 @@ desc: miso cheese
 location: Fufú Café
 link: https://hotchocolatefest.com/fuf%C3%BA-caf%C3%A9
 order: 3
+review: One of the first drinks I had, and I still think about it. Probably my favorite one. Fufu's was my favorite last year too!
 ---
 
 "

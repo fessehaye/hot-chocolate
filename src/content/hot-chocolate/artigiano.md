@@ -5,6 +5,7 @@ desc: cookie hot chocolate
 location: Artigiano
 link: https://hotchocolatefest.com/artigiano
 order: 2
+review: I enjoy anything that is cookie cream flavored! It does taste what you would expect though
 ---
 
 "

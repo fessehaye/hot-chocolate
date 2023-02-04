@@ -5,6 +5,7 @@ desc: dark drinking chocolate
 location: Drunken Chocolatier
 link: https://hotchocolatefest2.com/drunken-chocolatier
 order: 9
+review: Took me a bit to get use to but it was easier to drink as I continued. Something about the texture just made it really enjoyable to drink!
 ---
 
 "

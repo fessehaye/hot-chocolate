@@ -5,6 +5,7 @@ desc: strawberry white chocolate
 location: Koko Monk Chocolates
 link: https://hotchocolatefest.com/koko-monk-chocolates
 order: 12
+review: Top 3 or 5 drink for me! They make hot chocolates year round, so I would like to go back
 ---
 
 A 35% strawberry chili white hot chocolate with roasted coconut flakes.

@@ -20,5 +20,7 @@ const { drink, index } = Astro.props;
     >{drink.data.location}</a
   >
   <p class="text-gray-500 leading-none text-2xl italic">{drink.body}</p>
-  <p></p>
+  <p class="mt-4 text-2xl text-gray-500 leading-none">
+    Review: {drink.data.review}
+  </p>
 </article>

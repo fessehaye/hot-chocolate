@@ -5,6 +5,7 @@ desc: milk hot chocolate
 location: Kafka's Coffee
 link: https://hotchocolatefest.com/kafkas-coffee
 order: 7
+review: Good drink and good excuse to have tapioca
 ---
 
 "

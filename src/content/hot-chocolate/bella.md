@@ -5,6 +5,7 @@ desc: ube hot chocolate
 location: Bella Gelateria
 link: https://hotchocolatefest2.com/bella-gelateria
 order: 11
+review: This was probably top 3 to me at the moment! The cannoli is sooo good! This makes me miss Yelo'd :(
 ---
 
 "
