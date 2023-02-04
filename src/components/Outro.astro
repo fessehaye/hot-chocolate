@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+const drinkEntries = await getCollection("hot-chocolate");
+---
+
+<section
+  id="ending"
+  class="min-h-screen grid place-items-center grid-cols-1 grid-rows-1"
+>
+  <div class="w-screen h-screen row-span-full col-span-full">
+    <canvas id="tsparticles" class="w-screen h-screen"></canvas>
+  </div>
+  <div class="max-w-6xl row-span-full col-span-full z-10">
+    <p class="text-6xl text-center font-fancy w-full">
+      Thank you for following me through this experience haha!
+    </p>
+    <p class="mt-16 text-center text-6xl font-fancy w-full">
+      {drinkEntries.length} / 20
+    </p>
+  </div>
+</section>
+
+<script>
+  import JSConfetti from "js-confetti";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  const canvas = document.getElementById("tsparticles");
+
+  const jsConfetti = new JSConfetti({
+    canvas,
+  });
+  ScrollTrigger.create({
+    trigger: `#ending`,
+    start: "top top",
+    end: "bottom bottom",
+    onEnter: () => {
+      jsConfetti.addConfetti({
+        emojis: ["🍫", "🍮"],
+        emojiSize: 30,
+        confettiNumber: 100,
+      });
+    },
+  });
+</script>
