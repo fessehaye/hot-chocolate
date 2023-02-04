@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   drink: CollectionEntry<"hot-chocolate">;
-  index: Number;
+  index: number;
 }
 const { drink, index } = Astro.props;
 ---
@@ -11,12 +11,14 @@ const { drink, index } = Astro.props;
 <article
   data-tag={drink.slug}
   data-count={index + 1}
-  class="mt-[100vh] min-h-[40vh] p-4 py-10 bg-chocolate-white text-gray-800 rounded-xl text-xl"
+  class="mt-[60vh] xl:mt-[100vh] min-h-[40vh] p-4 py-10 bg-chocolate-white text-gray-800 rounded-xl text-xl shadow-lg shadow-gray-500"
 >
-  <p class="mb-4">{drink.data.name}</p>
+  <p class="mb-4 text-center md:text-left text-3xl font-fancy capitalize">
+    {drink.data.name.toLowerCase()}
+  </p>
   <a href={drink.data.link} class="underline mb-10 block text-gray-600"
     >{drink.data.location}</a
   >
-  <p class="text-gray-600">{drink.body}</p>
+  <p class="text-gray-500 leading-none text-2xl italic">{drink.body}</p>
   <p></p>
 </article>

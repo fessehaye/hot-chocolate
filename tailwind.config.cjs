@@ -11,6 +11,9 @@ module.exports = {
           white: "#EEE6D8",
         },
       },
+      fontFamily: {
+        fancy: "'La Belle Aurore', cursive",
+      },
     },
   },
   plugins: [],
