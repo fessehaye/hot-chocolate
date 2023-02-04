@@ -1,0 +1,83 @@
+---
+import Profile from "../components/Profile.astro";
+import { getCollection } from "astro:content";
+const drinkEntries = await getCollection("hot-chocolate");
+---
+
+<section class="min-h-[550vh] relative collection">
+  <div class="min-h-[550vh] xl:flex">
+    <div class="min-h-[550vh] flex-1 p-12 xl:mx-auto" id="drink-info">
+      <div class="mb-[50vh]"></div>
+      {
+        drinkEntries.map((drink, index) => {
+          return <Profile drink={drink} index={index} />;
+        })
+      }
+      <div class="mb-[100vh]"></div>
+    </div>
+    <div
+      class="sticky bottom-0 p-12 grid grid-cols-1 grid-rows-1 place-items-center bg-gray-800 h-96 xl:bottom-auto xl:top-0 xl:flex-1 xl:self-start xl:h-screen xl:items-center"
+    >
+      {
+        drinkEntries.map((drink, index) => (
+          <img
+            data-count={index + 1}
+            data-tag={drink.slug}
+            src={drink.data.picture}
+            class="rounded-lg object-contain xl:object-cover max-h-64 xl:max-h-full w-full row-span-full col-span-full"
+            alt={drink.data.desc}
+          />
+        ))
+      }
+    </div>
+    <span
+      class="fixed left-6 bottom-16 xl:bottom-6 text-2xl bg-white border-chocolate-bole border text-chocolate-bole w-12 h-12 grid place-items-center rounded-full"
+      >1</span
+    >
+  </div>
+</section>
+
+<script>
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.set(".sticky img,span", { autoAlpha: 0 });
+  const counter = document.querySelector("span");
+
+  const pictures = document.querySelectorAll(".sticky img");
+
+  [...pictures].forEach((picture) => {
+    ScrollTrigger.create({
+      trigger: `article[data-tag="${picture.dataset.tag}"]`,
+      start: "top bottom",
+      end: "bottom top",
+      onEnter: () => {
+        if (counter) {
+          counter.innerText = picture.dataset.count;
+        }
+        gsap.to(picture, { autoAlpha: 1 });
+      },
+      onEnterBack: () => {
+        if (counter) {
+          counter.innerText = picture.dataset.count;
+        }
+        gsap.to(picture, { autoAlpha: 1 });
+      },
+      onLeave: () => gsap.to(picture, { autoAlpha: 0 }),
+      onLeaveBack: () => gsap.to(picture, { autoAlpha: 0 }),
+    });
+  });
+
+  ScrollTrigger.create({
+    trigger: `.collection`,
+    start: "top top",
+    end: "bottom bottom",
+    onEnter: () => {
+      gsap.to("span", { autoAlpha: 1 });
+    },
+    onEnterBack: () => gsap.to("span", { autoAlpha: 1 }),
+    onLeave: () => gsap.to("span", { autoAlpha: 0 }),
+    onLeaveBack: () => gsap.to("span", { autoAlpha: 0 }),
+  });
+</script>
