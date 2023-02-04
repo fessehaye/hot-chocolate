@@ -4,6 +4,7 @@ picture: /chocolate/birthday.jpg
 desc: hip hip hooray
 location: 49th Parallel Coffee + Lucky's Doughnuts
 link: https://hotchocolatefest.com/49-parallel
+order: 15
 ---
 
 "Birthday cake-inspired hot chocolate made with white chocolate and sprinkles.

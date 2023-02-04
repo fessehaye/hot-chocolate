@@ -4,6 +4,7 @@ picture: /chocolate/drunk.jpg
 desc: dark drinking chocolate
 location: Drunken Chocolatier
 link: https://hotchocolatefest2.com/drunken-chocolatier
+order: 9
 ---
 
 "

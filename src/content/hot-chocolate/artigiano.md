@@ -4,6 +4,7 @@ picture: /chocolate/cookie.jpg
 desc: cookie hot chocolate
 location: Artigiano
 link: https://hotchocolatefest.com/artigiano
+order: 2
 ---
 
 "

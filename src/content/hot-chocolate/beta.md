@@ -4,6 +4,7 @@ picture: /chocolate/beta.jpg
 desc: boba hot chocolate
 location: Beta 5 Chocolates
 link: https://hotchocolatefest.com/beta-5-chocolates
+order: 8
 ---
 
 "

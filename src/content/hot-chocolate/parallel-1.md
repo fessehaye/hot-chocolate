@@ -4,6 +4,7 @@ picture: /chocolate/floral.jpg
 desc: floral
 location: 49th Parallel Coffee + Lucky's Doughnuts
 link: https://hotchocolatefest.com/49-parallel
+order: 4
 ---
 
 "

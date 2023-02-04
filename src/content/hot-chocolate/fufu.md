@@ -4,6 +4,7 @@ picture: /chocolate/cheezy.jpg
 desc: miso cheese
 location: Fufú Café
 link: https://hotchocolatefest.com/fuf%C3%BA-caf%C3%A9
+order: 3
 ---
 
 "

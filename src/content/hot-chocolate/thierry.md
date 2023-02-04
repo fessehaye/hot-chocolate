@@ -4,6 +4,7 @@ picture: /chocolate/first.jpg
 desc: classic hot chocolate
 location: Thierry Chocolaterie, Patisserie, Cafe
 link: https://hotchocolatefest.com/thierry-chocolates
+order: 1
 ---
 
 "

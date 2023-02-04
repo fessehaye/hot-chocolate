@@ -4,6 +4,7 @@ picture: /chocolate/arson.jpg
 desc: strawberry white chocolate
 location: Koko Monk Chocolates
 link: https://hotchocolatefest.com/koko-monk-chocolates
+order: 12
 ---
 
 A 35% strawberry chili white hot chocolate with roasted coconut flakes.

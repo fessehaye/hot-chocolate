@@ -4,6 +4,7 @@ picture: /chocolate/boba.jpg
 desc: milk hot chocolate
 location: Kafka's Coffee
 link: https://hotchocolatefest.com/kafkas-coffee
+order: 7
 ---
 
 "

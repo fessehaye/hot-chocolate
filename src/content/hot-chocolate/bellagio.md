@@ -4,6 +4,7 @@ picture: /chocolate/whisky.jpg
 desc: whisky
 location: Bellaggio Cafe
 link: https://hotchocolatefest.com/bellaggio-cafe
+order: 6
 ---
 
 "
