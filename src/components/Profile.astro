@@ -16,7 +16,9 @@ const { drink, index } = Astro.props;
   <p class="mb-4 text-center md:text-left text-3xl font-fancy capitalize">
     {drink.data.name.toLowerCase()}
   </p>
-  <a href={drink.data.link} class="underline mb-10 block text-gray-600"
+  <a
+    href={drink.data.link}
+    class="underline mb-10 block text-gray-600 underline-offset-4"
     >{drink.data.location}</a
   >
   <p class="text-gray-500 leading-none text-2xl italic">{drink.body}</p>
