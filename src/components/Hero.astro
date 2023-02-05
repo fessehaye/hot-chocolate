@@ -2,17 +2,19 @@
   <div
     class="max-w-6xl p-6 mx-auto md:p-10 min-h-screen grid place-items-center"
   >
-    <div class="text-center">
-      <h1 class="text-white text-4xl leading-tight md:text-7xl font-medium">
+    <div class="text-center hero-content">
+      <h1
+        class="text-white text-4xl leading-tight md:text-7xl font-medium opacity-0"
+      >
         The <a
           class="hover:underline xl:decoration-wavy xl:decoration-2"
           href="https://hotchocolatefest.com/">hot chocolate festival</a
         > is happening again!
       </h1>
-      <h2 class="mt-16 text-3xl lg:text-5xl font-fancy">
+      <h2 class="mt-16 text-3xl lg:text-5xl font-fancy opacity-0">
         Follow me on my journey of milk, sugar and diabetes!
       </h2>
-      <p class="mt-8 text-3xl lg:text-5xl font-fancy">
+      <p class="mt-8 text-3xl lg:text-5xl font-fancy opacity-0">
         The goal of this year is to try 20 different hot chocolates 🍫 🍮 😋
       </p>
     </div>
@@ -25,7 +27,7 @@
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      class="w-16 h-16 animate-bounce"
+      class="w-16 h-16 animate-bounce opacity-0"
     >
       <path
         stroke-linecap="round"
@@ -36,6 +38,24 @@
   </div>
 </section>
 
+<script>
+  import gsap from "gsap";
+
+  gsap.fromTo(
+    ".hero-content > *",
+    { y: 50, autoAlpha: 0 },
+    {
+      y: 0,
+      autoAlpha: 1,
+      duration: 0.5,
+      stagger: 0.3,
+      ease: "power2.out",
+      onComplete: () => {
+        gsap.to("svg", { autoAlpha: 1, duration: 0.2, ease: "power2.out" });
+      },
+    }
+  );
+</script>
 <style>
   section {
     background-color: #6c3f31;
