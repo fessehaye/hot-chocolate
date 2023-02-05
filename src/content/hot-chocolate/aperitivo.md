@@ -5,7 +5,7 @@ desc: mascarpone hot chocolate
 location: Aperitivo Truck
 link: https://hotchocolatefest2.com/aperitivo-truck
 order: 17
-review: I wanted to try the PISTACHIO drink so badly but this drink makes me forget about it. Might be the only drink I will put effort into trying it a second time!
+review: I wanted to try their PISTACHIO drink so badly, but this drink makes me forget about it. Might be the only drink I will put effort into trying it a second time!
 ---
 
 "
