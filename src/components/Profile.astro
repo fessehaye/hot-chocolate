@@ -11,11 +11,15 @@ const { drink, index } = Astro.props;
 <article
   data-tag={drink.slug}
   data-count={index + 1}
-  class="mt-[60vh] xl:mt-[100vh] min-h-[40vh] p-4 py-10 bg-chocolate-white text-gray-800 rounded-xl text-xl shadow-lg shadow-gray-500"
+  id={`${index + 1}`}
+  class="mt-[60vh] xl:mt-[100vh] min-h-[40vh] p-4 py-10 bg-chocolate-white text-gray-800 rounded-xl text-xl shadow-lg shadow-gray-500 xl:scroll-mt-6"
 >
-  <p class="mb-4 text-center md:text-left text-3xl font-fancy capitalize">
+  <a
+    href={`#${index + 1}`}
+    class="mb-4 text-center md:text-left text-3xl font-fancy capitalize"
+  >
     {drink.data.name.toLowerCase()}
-  </p>
+  </a>
   <a
     href={drink.data.link}
     class="underline mb-10 block text-gray-600 underline-offset-[7px]"
