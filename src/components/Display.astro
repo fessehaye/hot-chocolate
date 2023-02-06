@@ -23,7 +23,6 @@ drinkEntries.sort((a, b) => (a.data.order > b.data.order ? 1 : -1));
       }
     </div>
     <div class="min-h-[550vh] flex-1 p-12 xl:mx-auto" id="drink-info">
-      <div class="mb-[50vh]"></div>
       {
         drinkEntries.map((drink, index) => {
           return <Profile drink={drink} index={index} />;
@@ -76,7 +75,7 @@ drinkEntries.sort((a, b) => (a.data.order > b.data.order ? 1 : -1));
 
   ScrollTrigger.create({
     trigger: `.collection`,
-    start: "top top",
+    start: "-=300 top",
     end: "bottom bottom",
     onEnter: () => {
       gsap.to("span", { autoAlpha: 1 });
