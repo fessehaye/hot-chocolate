@@ -2,7 +2,7 @@
 import Profile from "../components/Profile.astro";
 import { getCollection } from "astro:content";
 const drinkEntries = await getCollection("hot-chocolate");
-drinkEntries.sort((a, b) => (a.data.order > b.data.order ? 1 : -1));
+drinkEntries.sort((a, b) => (b.data.order > a.data.order ? 1 : -1));
 ---
 
 <section class="min-h-[550vh] relative collection">
