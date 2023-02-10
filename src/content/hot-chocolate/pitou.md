@@ -5,7 +5,7 @@ desc: apple pie
 location: Marché Mon Pitou
 link: https://hotchocolatefest2.com/march%C3%A9-mon-pitou
 order: 22
-review: Drink and cookie were good but the whipped cream was a bit different the rest of them but I can't put my tongue on it haha
+review: Drink and cookie were good but the whipped cream was a bit different the rest of them but I can't put into words why
 ---
 
 "
