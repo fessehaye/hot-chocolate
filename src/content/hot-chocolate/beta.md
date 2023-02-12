@@ -1,6 +1,6 @@
 ---
 name: HOW ABOUT A NICE CUP OF TEA?
-picture: /chocolate/beta.jpg
+picture: /chocolate/beta.webp
 desc: boba hot chocolate
 location: Beta 5 Chocolates
 link: https://hotchocolatefest.com/beta-5-chocolates

@@ -1,6 +1,6 @@
 ---
 name: FLORALS AND SPICE
-picture: /chocolate/floral.jpg
+picture: /chocolate/floral.webp
 desc: floral
 location: 49th Parallel Coffee + Lucky's Doughnuts
 link: https://hotchocolatefest.com/49-parallel

@@ -1,6 +1,6 @@
 ---
 name: RAINCOUVER
-picture: /chocolate/cotton.jpg
+picture: /chocolate/cotton.webp
 desc: RAINCOUVER
 location: Honolulu Coffee
 link: https://hotchocolatefest.com/honolulu-coffee

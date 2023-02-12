@@ -1,6 +1,6 @@
 ---
 name: MALTER MEMORIES
-picture: /chocolate/federal.jpg
+picture: /chocolate/federal.webp
 desc: Valrhona Caraïbe hot chocolate
 location: The Federal Store
 link: https://hotchocolatefest2.com/federal-store

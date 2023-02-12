@@ -1,6 +1,6 @@
 ---
 name: ICED VOVO
-picture: /chocolate/rasp.jpg
+picture: /chocolate/rasp.webp
 desc: iced vovo
 location: Peaked Pies
 link: https://hotchocolatefest.com/peaked-pies

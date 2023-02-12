@@ -1,6 +1,6 @@
 ---
 name: OBAACHAN'S PLUM WINE STASH
-picture: /chocolate/plum-wine.jpg
+picture: /chocolate/plum-wine.webp
 desc: plum wine hot chocolate
 location: Aiyaohno Cafe
 link: https://hotchocolatefest2.com/aiyaohno-cafe-1

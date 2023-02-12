@@ -1,6 +1,6 @@
 ---
 name: BOBA BOOM CHOCO-LATTA
-picture: /chocolate/boba.jpg
+picture: /chocolate/boba.webp
 desc: milk hot chocolate
 location: Kafka's Coffee
 link: https://hotchocolatefest.com/kafkas-coffee

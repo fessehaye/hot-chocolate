@@ -1,6 +1,6 @@
 ---
 name: CIOCCOLATA CALDA MASCARPONE
-picture: /chocolate/farmer.jpg
+picture: /chocolate/farmer.webp
 desc: mascarpone hot chocolate
 location: Aperitivo Truck
 link: https://hotchocolatefest2.com/aperitivo-truck

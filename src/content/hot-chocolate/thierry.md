@@ -1,6 +1,6 @@
 ---
 name: MOKAYA MAGIC
-picture: /chocolate/first.jpg
+picture: /chocolate/first.webp
 desc: classic hot chocolate
 location: Thierry Chocolaterie, Patisserie, Cafe
 link: https://hotchocolatefest.com/thierry-chocolates

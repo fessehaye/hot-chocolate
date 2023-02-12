@@ -1,6 +1,6 @@
 ---
 name: HIP HIP HOORAY!
-picture: /chocolate/birthday.jpg
+picture: /chocolate/birthday.webp
 desc: hip hip hooray
 location: 49th Parallel Coffee + Lucky's Doughnuts
 link: https://hotchocolatefest.com/49-parallel

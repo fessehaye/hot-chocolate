@@ -1,6 +1,6 @@
 ---
 name: StrawRuby FIELDS
-picture: /chocolate/straw.jpg
+picture: /chocolate/straw.webp
 desc: pink hot chocolate
 location: Fife Bakery
 link: https://hotchocolatefest.com/fife-bakery

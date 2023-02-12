@@ -1,6 +1,6 @@
 ---
 name: COOKIES & CREME
-picture: /chocolate/cookie.jpg
+picture: /chocolate/cookie.webp
 desc: cookie hot chocolate
 location: Artigiano
 link: https://hotchocolatefest.com/artigiano

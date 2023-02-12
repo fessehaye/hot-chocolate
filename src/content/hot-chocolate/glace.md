@@ -1,6 +1,6 @@
 ---
 name: SANS RIVAL
-picture: /chocolate/float.jpg
+picture: /chocolate/float.webp
 desc: hot chocolate float
 location: La Glace Ice Cream
 link: https://hotchocolatefest.com/la-glace

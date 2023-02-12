@@ -1,6 +1,6 @@
 ---
 name: KYOTO SNOW
-picture: /chocolate/matcha.jpg
+picture: /chocolate/matcha.webp
 desc: matcha
 location: Whisk Matcha Cafe x Level V Bakery
 link: https://hotchocolatefest2.com/whisk-matcha-and-level-v

@@ -1,6 +1,6 @@
 ---
 name: TOAST THE TREE
-picture: /chocolate/drunk.jpg
+picture: /chocolate/drunk.webp
 desc: dark drinking chocolate
 location: Drunken Chocolatier
 link: https://hotchocolatefest2.com/drunken-chocolatier

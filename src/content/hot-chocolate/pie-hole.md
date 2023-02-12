@@ -1,6 +1,6 @@
 ---
 name: FAT ELVIS
-picture: /chocolate/banana.jpg
+picture: /chocolate/banana.webp
 desc: chocolate banana hot chocolate
 location: The Pie Hole
 link: https://hotchocolatefest2.com/pie-hole

@@ -1,6 +1,6 @@
 ---
 name: THE APPLE OF MY EYE
-picture: /chocolate/apple.jpg
+picture: /chocolate/apple.webp
 desc: apple pie
 location: Marché Mon Pitou
 link: https://hotchocolatefest2.com/march%C3%A9-mon-pitou

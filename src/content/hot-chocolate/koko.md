@@ -1,6 +1,6 @@
 ---
 name: ARSONIST'S LULLABY
-picture: /chocolate/arson.jpg
+picture: /chocolate/arson.webp
 desc: strawberry white chocolate
 location: Koko Monk Chocolates
 link: https://hotchocolatefest.com/koko-monk-chocolates

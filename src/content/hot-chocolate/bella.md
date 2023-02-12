@@ -1,6 +1,6 @@
 ---
 name: PURPLE DREAM
-picture: /chocolate/ube.jpg
+picture: /chocolate/ube.webp
 desc: ube hot chocolate
 location: Bella Gelateria
 link: https://hotchocolatefest2.com/bella-gelateria

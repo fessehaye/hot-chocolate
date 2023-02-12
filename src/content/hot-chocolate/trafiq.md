@@ -1,6 +1,6 @@
 ---
 name: THE ROYAL
-picture: /chocolate/chai.jpg
+picture: /chocolate/chai.webp
 desc: chai
 location: Trafiq Café & Bakery
 link: https://hotchocolatefest.com/trafiq-cafe

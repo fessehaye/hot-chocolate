@@ -1,6 +1,6 @@
 ---
 name: LIKE A WARM HUG
-picture: /chocolate/whisky.jpg
+picture: /chocolate/whisky.webp
 desc: whisky
 location: Bellaggio Cafe
 link: https://hotchocolatefest.com/bellaggio-cafe

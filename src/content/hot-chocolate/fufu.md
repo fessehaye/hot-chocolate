@@ -1,6 +1,6 @@
 ---
 name: Mi-So CHEESY
-picture: /chocolate/cheezy.jpg
+picture: /chocolate/cheezy.webp
 desc: miso cheese
 location: Fufú Café
 link: https://hotchocolatefest.com/fuf%C3%BA-caf%C3%A9
