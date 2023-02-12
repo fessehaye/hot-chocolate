@@ -22,7 +22,10 @@ drinkEntries.sort((a, b) => (b.data.order > a.data.order ? 1 : -1));
         ))
       }
     </div>
-    <div class="min-h-[550vh] flex-1 p-12 xl:mx-auto" id="drink-info">
+    <div
+      class="min-h-[550vh] flex-1 py-0 xl:py-6 px-12 xl:mx-auto"
+      id="drink-info"
+    >
       {
         drinkEntries.map((drink, index) => {
           return <Profile drink={drink} index={index} />;

@@ -11,9 +11,12 @@ const fs = require("fs");
 fs.readdirSync(testFolder).forEach((file) => {
   const oldFile = testFolder + "/" + file;
   const newFile = testFolder + "/" + file.replace("jpg", "webp");
-  const result = webp.cwebp(oldFile, newFile, "-q 80", (logging = "-v"));
-  result.then((response) => {
-    console.log(response);
-    if (oldFile.includes(".jpg")) fs.unlinkSync(testFolder + "/" + file);
-  });
+
+  if (oldFile.includes(".jpg")) {
+    const result = webp.cwebp(oldFile, newFile, "-q 80", (logging = "-v"));
+    result.then((response) => {
+      console.log(response);
+      fs.unlinkSync(testFolder + "/" + file);
+    });
+  }
 });
